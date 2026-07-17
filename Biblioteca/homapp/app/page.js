@@ -1,18 +1,22 @@
-import { Botao } from"components"
+import { Botao } from "../components/Botao";
 
-export default function page(){
+
+export default function HPage(){
   return(
     <>
-      <h1>HOME PAGE BIBLIOTECA</h1>
-      <Botaoteste/>
+      <div className="cabecalho">
+
+        <h1> home da biblioteca </h1>
+
+      </div>
+      <div className="opções">
+
+      </div>
+
+      <Botao/>
       
     </>
   );
+
 }
-function Botaoteste(){
-  return(
-    <button>
-      teste
-    </button>
-  );
-}
+
