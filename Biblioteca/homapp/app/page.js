@@ -1,4 +1,3 @@
-import { Botao } from "../components/Botao";
 
 
 export default function HPage(){
@@ -6,17 +5,15 @@ export default function HPage(){
     <>
       <div className="cabecalho">
 
-        <h1> home da biblioteca </h1>
-
-      </div>
-      <div className="opções">
+        <h1> home da  - biblioteca de jogos - </h1>
 
       </div>
 
-      <Botao/>
       
+      <div className="opcoeshomebar">
+        <p>esqueleto - 01</p>
+      </div>      
     </>
   );
 
 }
-
